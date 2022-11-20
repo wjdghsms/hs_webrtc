@@ -669,6 +669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1500435894}
+  - component: {fileID: 1500435895}
   m_Layer: 0
   m_Name: WebRTC
   m_TagString: Untagged
@@ -693,6 +694,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1500435895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500435893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456722bb3078cb44ab1f53231fcdcb74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PeerConnection: {fileID: 450524190}
+  AutoLogErrors: 1
+  HttpServerAddress: http://127.0.0.1:3000/
+  PollTimeMs: 500
 --- !u!1 &1828601335
 GameObject:
   m_ObjectHideFlags: 0
